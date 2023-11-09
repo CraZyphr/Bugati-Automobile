@@ -1,0 +1,18 @@
+.navbar2 {
+    height: 28px;
+    width: 25%; /* Adjust the width to your desired width */
+    position: fixed;
+    bottom: 0px;
+    left: 4%; /* Adjust the left value to half of the space you want on both sides */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255,255,255,0.5);
+    z-index: 999;
+    transition: margin-top 0.5s;
+    overflow: hidden;
+    
+    
+
+}
+

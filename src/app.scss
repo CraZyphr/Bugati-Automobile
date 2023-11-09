@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  overflow: hidden;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  color: white;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: auto;
+  white-space: nowrap;
+  scroll-snap-type: x mandatory;
+  section {
+    width: 100vw;
+    height: 100vh;
+    display: inline-block;
+    scroll-snap-align: end;
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .container::-webkit-scrollbar {
+    width: 0.1rem;
+  }
+  
+  .container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+}
+
+

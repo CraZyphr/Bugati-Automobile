@@ -1,0 +1,21 @@
+.navbar {
+    height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 999; /* Set a high z-index value to make the navbar appear in front of other elements */
+}
+
+.wrapper {
+    padding-top: 7px;
+    width: 100vw;
+    height: 100%;
+}
+
+span {
+    color: white;
+    padding-left: 688px;
+    font-size: 29px;
+    font-weight: bold;
+}
