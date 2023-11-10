@@ -32,26 +32,38 @@
     z-index: 2;
 
     h1 {
-        
-        gap: .5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        gap: .3px;
         font-size: 68px;
         line-height: 70px;
         padding-top: 15px;
     }
 
     h2 {
-        gap: .5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        gap: .3px;
+
         font-size: 68px;
         line-height: 70px;
         padding-top: 15px;
     }
 
     p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 14px;
+        gap: .3px;
         padding-top: 15px; 
     }
 
     h3 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 21px;
+        gap: .3px;
+    }
+    img {
+        z-index: 3;
+        height: 40px;
+        width: 40px;
+        transform: translateY(50px); /* Move the image down by 10 pixels */
     }
 }
