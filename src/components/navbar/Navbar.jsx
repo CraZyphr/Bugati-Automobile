@@ -21,16 +21,22 @@ const Navbar = () => {
 
       {isMenuOpen && (
         <div className='expanded-menu'>
-          <p>1</p>
-          <h1>BUGATTI LIFESTYLE</h1>
-          <p>2</p>
-          <h1>BUGATTI HERITAGE</h1>
-          <p>3</p>
-          <h1>Models</h1>
-          <p>4</p>
-          <h1>CUSTOMIZATION</h1>
-          <p>5</p>
-          <h1>OWNERSHIP</h1>
+          
+          <p className='bl'>BUGATTI LIFESTYLE</p>
+          
+          <p className='bh'>BUGATTI HERITAGE</p>
+          
+          <p className='m'>Models</p>
+         
+          <p className='c'>CUSTOMIZATION</p>
+          
+          <p className='0'> OWNERSHIP</p>
+          <div className="sec">
+          <h7>About Us </h7>
+          <h7>Contact </h7>
+          <h7>Find a Dealer </h7>
+          <h7>News & Yeagerist</h7>
+          </div>
 
         </div>
       )}
