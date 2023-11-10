@@ -1,4 +1,4 @@
-// Navbar2.js
+
 import './navbar2.scss';
 import React, { useState } from 'react';
 
@@ -10,6 +10,7 @@ function Navbar2() {
   };
 
   return (
+    
     <div className={`navbar2 ${isListVisible ? 'list-visible' : ''}`}>
       <h5>21.47 - 25.19 1/100 km</h5>
       <h6>486.72 - 571.63 g/km</h6>
