@@ -12,7 +12,7 @@
     -webkit-backdrop-filter: blur(22px);
     backdrop-filter: blur(22px);
     border: 1px solid rgba(255, 255, 255, 0.025);
-    z-index: 7;
+    z-index: 70;
     transition: margin-top 0.5s;
 
     button {
@@ -30,6 +30,11 @@
 
         &:last-child { 
             background: transparent;
+            padding: 15px; 
+      font-size: 17.5px;
+      padding-right:75px ;
+            
+            
         }
     }
 
@@ -37,6 +42,7 @@
         height: 50px;
         width: auto;
         margin: 0 auto;
-        margin: -106px auto 0;
+        margin: 3px auto 0;
+        padding-right: 1%;
     }
 }
